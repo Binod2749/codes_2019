@@ -1,0 +1,174 @@
+                                                    ==================
+                                                        Pyhon Basics
+                                                    ==================
+													
+==> Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. 
+It was created by Guido van Rossum during 1985- 1990.
+
+
+
+==>Why do we nedd to Python?
+
+Python is Interpreted − Python is processed at runtime by the interpreter. 
+You do not need to compile your program before executing it.
+
+Python is Interactive − You can actually sit at a Python prompt and 
+interact with the interpreter directly to write your programs.
+
+Python is Object-Oriented − 
+Python supports Object-Oriented style or technique of programming that encapsulates code within objects.
+
+
+
+
+
+python primary Synatax:- 
+
+Interactive Mode Programming  : when you simply run the code in interpreter with passing parameter.
+print("Hello new developer , welcome")
+
+
+
+Script Mode Programming:  create a python file test.py and put print("Hello new developer , welcome")
+python test.py 
+
+Output will be same in both case as above.
+
+###lets have one more way to call a python script ######
+modify file test.py 
+
+#!/usr/bin/python
+ print("Hello new developer , welcome")
+ 
+ 
+Now you just need to execute the file , As test.py . it will display your output.
+
+
+
+
+
+                 #####################Python Identifiers####################
+                 idntifier means name to identify python class, function , varible etc.
+                 python is case sensative language, it discriminate the lower and upper cases.
+                 
+                 
+                 
+                 ###########################Indentation#####################
+                 Python provides no braces to indicate blocks of code for class and function definitions or code flow controlling. 
+                 Blocks of code are denoted by line indentation, which is hardcoded rule of pyhton.
+                 
+                 
+                 Multi-Line Statements : allow the use of the line continuation character (\) to represnt that the line is continuing.
+                 
+                 eg :-  Man = he should be honest + \
+                              ,dedicated ,hardwarking.
+                              
+                              Note : above line is in same line
+                              
+
+
+
+####Python has five standard data types ####  
+1.Numbers
+2.String 
+3.List       ==>  [] , collection ,{ordered,changable,AD}, AD==> all0w duplicates
+4.Tuple      ==>  () , collection ,{ordered,UNchangable,AD} 
+5.Dictionary ==>  {} , collection ,{UNORDERD,Changable,No Duplicacy}
+6.set        ==>     , UNORDERED,UNIndexed ,No Duplicacy
+
+Example :- 
+1.Numbers    ==>  var1 = 1
+2.String     ==>  str = 'Binod'
+3.List       ==> list = ['Binod',1201127,'Bokaro','Jharkhand'] 
+4.Tuple      ==>  ('Binod',1201127,'Bokaro','Jharkhand') 
+5.Dictionary ==>  {'NAME': 'Binod', 'CITY': 'Bokaro' , 'STATE': 'Jharkhand'} 
+
+
+
+                                             #################Types of Operator##################
+                                                          Arithmetic    ==> / ,*,+,-,%,**--Exponential ,//--floor divison (rounded)
+                                                          Comparison    ==> ==,!=,<>, >,<,>=,<=
+                                                          Assignment    ==> =,+=,-= ,*= ,/=,%= ,**= ,//=
+                                                          Logical       ==> AND , OR ,NOT
+                                                          Bitwise       ==> & Binary AND ,| Binary OR ,^ Binary XOR, ~ Binary ones complement ,
+                                                                            << Binary left shift,>> Binary right shift
+                                    
+                                                          Membership    ==> In and NOT in 
+                                                          Identity      ==> IS and IS NOT
+                                    
+                                    
+
+
+###############Decision Making############## 
+
+++++++++++++++++++
+1 .IF Statement :- 
+++++++++++++++++++
+
+
+#!/usr/bin/python
+
+var = 100
+if var:
+   print ('my name is Binod')
+   print var
+   
+var0 = 99
+if var0:
+   print ('I dont know you')
+   print var0
+print ('Good bye!')
+
+
+++++++++++++++++++
+2.IF Statement :- 
+++++++++++++++++++
+
+#!/usr/bin/python
+var = 100
+if var:
+   print ('my name is Binod')
+   print var
+else:
+    print ('I dont know you')
+    print ('Bye')
+
+
+
+
+
+                                
+
+
+
+
+
+
+
+                     
+                 
+                 
+ 
+ 
+     
+                 
+                 
+                 
+                 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
