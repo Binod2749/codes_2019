@@ -101,37 +101,51 @@ Example :-
 
 ###############Decision Making############## 
 
+1.if statement
+2.if..else statements
+3.nested if statements
+4.if-elif ladder
+
+
 ++++++++++++++++++
 1 .IF Statement :- 
 ++++++++++++++++++
 
+i = 10
+if (i > 5):  #### Whenever condition satisfy above value then only it Execute below command else it will exit
+    print("10 is greater than 5")
 
-#!/usr/bin/python
 
-var = 100
-if var:
-   print ('my name is Binod')
-   print var
-   
-var0 = 99
-if var0:
-   print ('I dont know you')
-   print var0
-print ('Good bye!')
+Output :- 10 is greater than 5
+
+
 
 
 ++++++++++++++++++
-2.IF Statement :- 
+2.IF else Statement :- 
 ++++++++++++++++++
 
-#!/usr/bin/python
-var = 100
-if var:
-   print ('my name is Binod')
-   print var
+i = 20;
+if (i < 15): #### Whenever condition satisfy above value then only it Execute below command else it will go to else block
+    print("i is smaller than 15")
+    print("i'm in if Block")
+
 else:
-    print ('I dont know you')
-    print ('Bye')
+    print(i,"is greater than 15")
+    print("i'm in else Block")
+    
+    
+    
+ ++++++++++++++++++
+3.Nested-if Statement :- 
++++++++++++++++++++ 
+We can place an if statement inside another if statement.
+
+
+
+
+    
+    
 
 
 
