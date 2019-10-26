@@ -1,0 +1,53 @@
+if __name__ == "__main__":
+
+Whenever we run any pyhton script, Interpreter assign special varibles.
+
+1) __name__ is also one of the variable , which tells us the name of module on which our program is running.
+
+Example : 
+--------------------------------------------------------------------------------------
+                            ###################################
+			                       File:- 1 file1.py 
+			                ###################################
+
+def add(a,b) :
+    return a+b
+
+
+print(add(8,3))
+print(__name__)
+ 
+
+ Output:- 11
+          __main__
+		  
+
+                            ################################
+                                      File:- 2 file2.py
+							################################
+####import above file in your second file 
+														
+import file1
+
+print(file1.add(5,8))
+print(__name__)
+
+Output :- 11
+          file1
+		  13
+         __main__
+		  
+
+
+Conclusion:- 
+1) 11, file1   ==> This is the output of imported file , where __name__ of variable will be the prefix of file name
+2) 13, __main__ ==> In this case our program run as main program ,so the varible __name__ == __main__
+
+
+------------------------------------------------------------------------------------------
+
+
+   
+
+   
+   
